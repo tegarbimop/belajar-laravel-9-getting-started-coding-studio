@@ -1,3 +1,33 @@
+# Belajar Laravel 9 - Coding Studio
+
+Project awal belajar framework Laravel 9 mengikuti course dari Coding Studio.
+
+## 🚀 Panduan Instalasi dan Menjalankan Project
+
+Ikuti langkah-langkah di bawah ini untuk membuat, mengonfigurasi, dan menjalankan project Laravel ini di komputer lokal (XAMPP):
+
+1. **Clone repository atau buat project baru dengan Composer** di dalam folder `htdocs` XAMPP:
+   `composer create-project laravel/laravel:^9.0 belajar-laravel-9-getting-started-coding-studio`
+
+2. **Masuk ke dalam folder project** lewat terminal / CMD:
+   `cd belajar-laravel-9-getting-started-coding-studio`
+
+3. **Install dependencies (folder vendor)** jika melakukan clone dari GitHub:
+   `composer install`
+
+4. **Duplikat file konfigurasi environment**:
+   Salin file `.env.example` dan ubah namanya menjadi `.env`, atau ketik perintah ini:
+   `cp .env.example .env`
+
+5. **Generate Application Key**:
+   `php artisan key:generate`
+
+6. **Jalankan local development server**:
+   `php artisan serve`
+
+7. Buka browser kamu dan akses link server lokal yang muncul (biasanya `http://127.0.0.1:8000`).
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
